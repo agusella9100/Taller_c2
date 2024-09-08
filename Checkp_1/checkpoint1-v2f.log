@@ -1,0 +1,735 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\aguse\OneDrive\Escritorio\Fiuba\2024_2c\Taller_circuitos\Taller_c2\Checkp_1\checkpoint1-v2f.asc
+Start Time: Sun Sep  8 18:42:51 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 16
+
+
+
+.step vllave=0
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u2:1      d:u2:2      d:u3:1
+Model:    u1:x        u1:x        u2:x        u2:x        u3:x
+Id:      1.24e+00    1.26e+00    1.26e+00    1.24e+00   -4.46e-12
+Vd:      4.98e+00    5.02e+00    5.03e+00    4.97e+00   -4.45e+00
+Req:     1.00e+00    1.00e+00    1.00e+00    1.00e+00    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:2      d:u4:1      d:u4:2
+Model:    u3:x        u4:x        u4:x
+Id:     -5.55e-12   -8.12e-12   -1.89e-12
+Vd:     -5.55e+00   -8.12e+00   -1.88e+00
+Req:     1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q1          q2          q3          q4          q5
+Model:    bc557c      bc557c      bc547c      bc547c      2sb772
+Ib:      -1.37e-06   -1.36e-06    1.25e-06    1.17e-06   -5.37e-03
+Ic:      -6.08e-04   -6.08e-04    6.10e-04    5.74e-04   -9.06e-01
+Vbe:     -6.05e-01   -6.05e-01    6.07e-01    6.05e-01   -7.51e-01
+Vbc:      0.00e+00    1.41e-01   -4.26e+00   -4.12e+00    9.56e-01
+Vce:     -6.05e-01   -7.46e-01    4.87e+00    4.72e+00   -1.71e+00
+BetaDC:   4.45e+02    4.47e+02    4.90e+02    4.89e+02    1.69e+02
+Gm:       2.30e-02    2.30e-02    2.33e-02    2.19e-02    2.81e+01
+Rpi:      1.94e+04    1.95e+04    2.10e+04    2.23e+04    4.83e+00
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    0.00e+00
+Ro:       3.90e+04    3.92e+04    9.31e+04    9.88e+04    1.11e+02
+Cbe:      4.34e-11    4.34e-11    4.19e-11    4.11e-11    3.50e-10
+Cbc:      4.91e-12    4.45e-12    1.15e-12    1.16e-12    1.02e-10
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   4.45e+02    4.47e+02    4.89e+02    4.88e+02    1.36e+02
+Cbx:      2.90e-12    2.63e-12    7.09e-13    7.15e-13    0.00e+00
+Ft:       7.14e+07    7.25e+07    8.46e+07    8.09e+07    9.89e+09
+
+Name:       q6          q7
+Model:    2n4401      2n2222
+Ib:       3.43e-05   -1.16e-11
+Ic:       5.37e-03    8.44e-12
+Vbe:      6.75e-01   -3.12e+00
+Vbc:     -2.82e-01   -8.43e+00
+Vce:      9.56e-01    5.32e+00
+BetaDC:   1.57e+02   -7.31e-01
+Gm:       2.02e-01    1.99e-65
+Rpi:      9.31e+02    1.00e+12
+Rx:       1.00e+01    1.00e+01
+Ro:       1.70e+04    0.00e+00
+Cbe:      1.34e-10    1.46e-11
+Cbc:      9.77e-12    3.50e-12
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   1.88e+02    1.99e-53
+Cbx:      0.00e+00    0.00e+00
+Ft:       2.23e+08    8.82e-03
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:     ipt004n03l
+Id:          3.46e-09
+Vgs:         0.00e+00
+Vds:         5.39e-01
+Vth:         2.30e+00
+Gm:          4.42e-18
+Gds:         1.90e-20
+Cgs:         1.80e-08
+Cgd:         3.23e-09
+Cbody:       1.59e-08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.step vllave=6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+
+
+Measurement: vo1rc
+  step	v(vo)	at
+     1	4.55787	100
+     2	5.50077	100
+
+Measurement: vo2rc
+  step	v(vo)	at
+     1	4.55174	5
+     2	5.30513	5
+
+Measurement: io1rc
+  step	i(rl)	at
+     1	0.0455787	100
+     2	0.0550077	100
+
+Measurement: io2rc
+  step	i(rl)	at
+     1	0.910347	5
+     2	1.06103	5
+
+Measurement: regcar
+  step	(-(vo2rc-vo1rc)/(io2rc-io1rc))
+     1	0.00709216
+     2	0.194462
+
+Total elapsed time: 29.243 seconds.
+

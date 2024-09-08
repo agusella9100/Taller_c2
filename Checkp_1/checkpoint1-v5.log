@@ -1,0 +1,403 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\aguse\OneDrive\Escritorio\Fiuba\2024_2c\Taller_circuitos\Taller_c2\Checkp_1\checkpoint1-v5.asc
+Start Time: Sun Sep  8 19:34:44 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 16
+
+
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 3.64963e-05
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 7.04637e-06
+vernier = 1
+Gmin = 8.09366e-07
+Gmin = 8.6905e-08
+Gmin = 9.33136e-09
+Gmin = 1.00195e-09
+Gmin = 1.07583e-10
+Gmin = 1.15517e-11
+Gmin = 1.24035e-12
+Gmin = 1.33182e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u2:1      d:u2:2      d:u3:1
+Model:    u1:x        u1:x        u2:x        u2:x        u3:x
+Id:     -4.78e-12   -5.23e-12   -4.80e-12   -5.21e-12   -4.98e-12
+Vd:     -4.77e+00   -5.23e+00   -4.80e+00   -5.20e+00   -4.97e+00
+Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:2      d:u4:1      d:u4:2      d:u5:1      d:u5:2
+Model:    u3:x        u4:x        u4:x        u5:x        u5:x
+Id:     -5.03e-12   -4.78e-12   -5.23e-12   -4.24e-12   -5.77e-12
+Vd:     -5.03e+00   -4.77e+00   -5.23e+00   -4.24e+00   -5.76e+00
+Req:     1.00e-12    1.00e-12    1.00e-12    1.00e-12    1.00e-12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q1          q2          q3          q4          q5
+Model:    bc557c      bc557c      bc547c      bc547c      2n4403
+Ib:      -2.58e-06   -2.20e-06    2.36e-06   -1.38e-12   -1.20e-03
+Ic:      -1.15e-03   -1.15e-03    1.15e-03    8.56e-13   -2.25e-01
+Vbe:     -6.22e-01   -6.18e-01    6.24e-01   -5.21e-01   -8.82e-01
+Vbc:      0.00e+00    4.30e+00   -3.99e+00   -8.29e-01    5.22e+00
+Vce:     -6.22e-01   -4.92e+00    4.61e+00    3.07e-01   -6.10e+00
+BetaDC:   4.44e+02    5.25e+02    4.87e+02   -6.20e-01    1.87e+02
+Gm:       4.30e-02    4.35e-02    4.37e-02    3.91e-21    7.47e+00
+Rpi:      1.02e+04    1.20e+04    1.11e+04    1.00e+12    2.15e+01
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    1.00e+01
+Ro:       2.06e+04    2.42e+04    4.91e+04    5.13e+23    5.36e+02
+Cbe:      5.45e-11    5.46e-11    5.25e-11    9.83e-12    5.37e-09
+Cbc:      4.91e-12    1.87e-12    1.17e-12    1.73e-12    4.90e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   4.39e+02    5.22e+02    4.83e+02    3.91e-09    1.61e+02
+Cbx:      2.90e-12    1.10e-12    7.21e-13    1.07e-12    0.00e+00
+Ft:       1.10e+08    1.20e+08    1.28e+08    1.26e-02    2.21e+08
+
+Name:       q6          q7
+Model:    2n4401      bc847c
+Ib:       9.68e-06    3.18e-06
+Ic:       1.20e-03    1.15e-03
+Vbe:      6.34e-01    6.42e-01
+Vbc:     -4.58e+00   -1.27e-01
+Vce:      5.22e+00    7.69e-01
+BetaDC:   1.24e+02    3.60e+02
+Gm:       4.63e-02    4.42e-02
+Rpi:      3.30e+03    8.14e+03
+Rx:       1.00e+01    1.00e+01
+Ro:       7.91e+04    5.69e+04
+Cbe:      6.04e-11    3.90e-11
+Cbc:      5.26e-12    1.90e-11
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   1.53e+02    3.60e+02
+Cbx:      0.00e+00    0.00e+00
+Ft:       1.12e+08    1.21e+08
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       2n7002
+Id:          1.66e-05
+Vgs:         3.00e+00
+Vds:         6.83e-05
+Vth:         1.60e+00
+Gm:          1.19e-05
+Gds:         2.97e-01
+Cgs:         5.00e-11
+Cgd:         7.99e-11
+Cbody:       5.00e-11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+
+
+Measurement "vo1rc" FAIL'ed
+vo2rc: v(vo)=2.26298 at 5
+
+Measurement "io1rc" FAIL'ed
+io2rc: i(rl)=0.452597 at 5
+
+Measurement "regcar" FAIL'ed
+
+Total elapsed time: 18.084 seconds.
+

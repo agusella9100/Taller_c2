@@ -1,6 +1,7 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\aguse\OneDrive\Escritorio\Fiuba\2024_2c\Taller_circuitos\Taller_c2\Checkp_1\checkpoint1-v2f.asc
-Start Time: Sun Sep  8 18:42:51 2024
+Start Time: Sun Sep  8 19:51:12 2024
+Warning: Multiple definitions of model "2sb772" Type: BJT
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
@@ -48,7 +49,7 @@ Req:     1.00e-12    1.00e-12    1.00e-12
 CAP:     0.00e+00    0.00e+00    0.00e+00
 
                         --- Bipolar Transistors ---
-Name:       q1          q2          q3          q4          q5
+Name:       q1          q2          q3          q4       q§2sb772
 Model:    bc557c      bc557c      bc547c      bc547c      2sb772
 Ib:      -1.37e-06   -1.36e-06    1.25e-06    1.17e-06   -5.37e-03
 Ic:      -6.08e-04   -6.08e-04    6.10e-04    5.74e-04   -9.06e-01
@@ -60,12 +61,12 @@ Gm:       2.30e-02    2.30e-02    2.33e-02    2.19e-02    2.81e+01
 Rpi:      1.94e+04    1.95e+04    2.10e+04    2.23e+04    4.83e+00
 Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00    0.00e+00
 Ro:       3.90e+04    3.92e+04    9.31e+04    9.88e+04    1.11e+02
-Cbe:      4.34e-11    4.34e-11    4.19e-11    4.11e-11    3.50e-10
+Cbe:      4.34e-11    4.34e-11    4.19e-11    4.11e-11    5.45e-08
 Cbc:      4.91e-12    4.45e-12    1.15e-12    1.16e-12    1.02e-10
 Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
 BetaAC:   4.45e+02    4.47e+02    4.89e+02    4.88e+02    1.36e+02
 Cbx:      2.90e-12    2.63e-12    7.09e-13    7.15e-13    0.00e+00
-Ft:       7.14e+07    7.25e+07    8.46e+07    8.09e+07    9.89e+09
+Ft:       7.14e+07    7.25e+07    8.46e+07    8.09e+07    8.19e+07
 
 Name:       q6          q7
 Model:    2n4401      2n2222
@@ -731,5 +732,5 @@ Measurement: regcar
      1	0.00709216
      2	0.194462
 
-Total elapsed time: 29.243 seconds.
+Total elapsed time: 13.186 seconds.
 

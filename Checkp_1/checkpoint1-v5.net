@@ -4,7 +4,7 @@ Q2 Verror N014 P002 0 BC557C
 Q3 N014 Vref N019 0 BC547C
 Q4 Verror Vf N019 0 BC547C
 R1 N019 0 500
-Q5 Vs+ N016 VIN 0 2N4403
+Q5 Vs+ N016 VIN 0 2SB772
 Q6 N016 Verror Vs+ 0 2N4401
 R5 Vo Vf 10k
 R6 Vf N017 3.3k
@@ -85,6 +85,7 @@ R25 N012 0 100
 .param Rgrande 100k
 .param Rx 100k
 .param Vllave 6
+.model 2SB772 PNP(Is=282f Xti=3 Eg=1.11 Vaf=100 Bf=213.6 Ise=1.659p Ne=1.787 Ikf=6.472 Nk=.7894 Xtb=1.5 Var=100 Br=39.18 Isc=12.72p Nc=1.637 Ikr=.1652 Rc=64.89m Cjc=145.6p Mjc=.2985 Vjc=.3905 Fc=.5 Cje=255.3p Mje=.5064 Vje=1.615 Tr=10n Tf=1.927n Itf=6.218 Xtf=0 Vtf=10)
 .lib UniversalOpAmp2.lib
 .backanno
 .end
